@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pzy.chopin.schoolsecondmarket.activity.UpdataGoods">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_update_name"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_update_price"
+            android:maxLines="1"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_update_desc"
+            android:maxLines="5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:id="@+id/btn_update"
+        android:text="确认修改"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+</LinearLayout>

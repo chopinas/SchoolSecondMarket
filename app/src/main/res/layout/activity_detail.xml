@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pzy.chopin.schoolsecondmarket.activity.Detail">
+
+     <ImageView
+         android:id="@+id/iv_detail"
+         android:layout_weight="3.2"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+      />
+
+    <!--添加用品名字和价格-->
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_weight="1.6"
+        android:orientation="vertical"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/tv_goodsname"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textSize="30sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grew"/>
+
+        <LinearLayout
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent" >
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:text="价格为："
+                    android:textSize="20sp"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    />
+                <TextView
+                    android:textColor="@color/green"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/tv_goodsprice"
+                    android:layout_marginLeft="10dp"
+                    android:text=""
+                    android:textSize="20sp"
+                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:id="@+id/ll_good_detail_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/da_ren_services_tick"
+                    android:drawablePadding="6dp"
+                    android:text="担保交易"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/da_ren_services_tick"
+                    android:drawablePadding="6dp"
+                    android:text="正品保障"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/da_ren_services_tick"
+                    android:drawablePadding="6dp"
+                    android:text="赔运费险"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/da_ren_services_tick"
+                    android:drawablePadding="6dp"
+                    android:text="7天退换"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/rightarrow" />
+            </LinearLayout>
+     </LinearLayout>
+
+    <View
+        android:background="@color/strong_grew"
+        android:layout_height="10dp"
+        android:layout_width="match_parent"/>
+
+    <!--添加用品描述和联系人-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="2.4"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:text="商品描述"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent">
+
+            <ImageView
+                android:src="@drawable/useiconr"
+                android:layout_height="60dp"
+                android:layout_width="60dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_goodsusername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_alignParentRight="true">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/da_ren_list_star" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:src="@drawable/da_ren_list_star" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:src="@drawable/da_ren_list_star" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:src="@drawable/da_ren_list_star" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_email"
+                    style="@style/greyTextStyleSmaller"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:layout_marginTop="2dp"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/tv_goodsdescr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_collect"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_weight="0.7"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"/>
+
+</LinearLayout>

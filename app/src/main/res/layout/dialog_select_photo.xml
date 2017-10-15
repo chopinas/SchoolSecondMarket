@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <Button
+        android:id="@+id/bt_select_gallery"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:background="@color/white"
+        android:text="从相册中选取"/>
+    <LinearLayout
+        android:background="@color/black"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"/>
+    <Button
+        android:background="@color/white"
+        android:id="@+id/bt_select_camera"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:text="拍摄照片"/>
+
+</LinearLayout>

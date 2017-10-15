@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fff540</color>
+    <color name="colorLogin_register_button">#1B75E0</color>
+    <color name="tabbackground">#f6f4f2</color>
+    <color name="green">#FF34A350</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#1e1c1c</color>
+    <color name="background">#f1f1f1</color>
+    <color name="grew">#89848f</color>
+    <color name="strong_grew">#afabab</color>
+    <color name="yellow">#f1e95b</color>
+    <color name="textblack">#cac3c3</color>
+</resources>
